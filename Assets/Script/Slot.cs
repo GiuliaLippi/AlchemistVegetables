@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Slot : MonoBehaviour
 {
+    public items item;
+    public int index;
     // Start is called before the first frame update
     void Start()
     {

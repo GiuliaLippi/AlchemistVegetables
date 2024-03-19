@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class CraftingSystem : MonoBehaviour
 {
-    public GameObject itemA;
-    public GameObject itemB;
-    public GameObject craftedItem;
-   
+    private items currentItem;
+    public void OnMouseDown(items item)
+    {
+        if (currentItem == null)
+        {
+            currentItem = item 
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
