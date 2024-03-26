@@ -30,9 +30,6 @@ public class Pentagram : MonoBehaviour
     }
 
     // Metodo per controllare che gli ingredienti di una ricetta corrispondano a quelli inseriti nel Pentagramma
-    private bool CheckIngredients(Recipe recipe)
-    {
-        //logica da implementare
-    }
+    private bool CheckIngredients(Recipe recipe) { return false; }
 
 }

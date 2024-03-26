@@ -4,10 +4,10 @@ using UnityEngine;
 public class Recipe : ScriptableObject
 {
     [SerializeField]
-    private Item[] ingredients = new Item[5]; // Serialized array of ingredients
+    public Item[] ingredients = new Item[5]; // Serialized array of ingredients
 
     [SerializeField]
-    private Item result; // Serialized field for the result
+    public Item result; // Serialized field for the result
 
     // Getters and setters for accessing and modifying the fields
     public Item[] Ingredients
